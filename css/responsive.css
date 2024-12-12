@@ -1,0 +1,3027 @@
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 1rem 5%;
+    }
+
+    nav {
+        width: 50%;
+        margin-left: 4rem;
+
+    }
+
+    nav a {
+        margin-left: 2rem;
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 2rem 4%;
+    }
+
+    .home .home-container .presentation-phrase {
+        font-size: 3.5rem;
+        line-height: 6rem;
+    }
+
+    .home .home-container .presentation-phrase .myName {
+        font-size: 4rem;
+    }
+
+    .home .home-container .photo .portrait {
+        width: 34rem;
+        height: 36rem;
+    }
+
+    .home .home-container .photo .portrait .myPhoto {
+        width: 26rem;
+        height: 28rem;
+    }
+
+    .knowledge .outer .box-1 img {
+        width: 36rem;
+        height: 25rem;
+        position: absolute;
+        top: 20rem;
+        left: 0;
+    }
+
+    .knowledge .outer .box-2 img {
+        width: 36rem;
+        height: 25rem;
+        position: absolute;
+        top: 20rem;
+        left: 0;
+    }
+
+    .knowledge .outer #btn-box {
+        position: absolute;
+        left: 20rem;
+        bottom: 11rem;
+        height: 9rem;
+    }
+
+    .knowledge .outer .ball {
+        width: 6rem;
+        height: 6rem;
+
+    }
+
+    .knowledge .outer .ball img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+    @keyframes jump-2 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 9rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 15rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(36deg);
+            top: 36rem;
+            left: 77%;
+        }
+    }
+
+    .knowledge .outer #title-2 {
+        right: 21rem;
+        bottom: 7rem;
+    }
+
+    @keyframes jump-3 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 5rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 13rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 25rem;
+            left: 72%;
+        }
+    }
+
+    .knowledge .outer #title-3 {
+        right: 28rem;
+        bottom: 18rem;
+    }
+
+    @keyframes jump-4 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 8rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 17rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 19rem;
+            left: 63%;
+        }
+    }
+
+    .knowledge .outer #title-4 {
+        right: 40.5rem;
+        bottom: 24rem;
+    }
+
+    @keyframes jump-5 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 10rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 17rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 36rem;
+            left: 60%;
+        }
+    }
+
+    .knowledge .outer #title-5 {
+        right: 44rem;
+        bottom: 7.8rem;
+    }
+
+    @keyframes jump-6 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 7rem;
+        }
+
+        50% {
+            transform: scale(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 26rem;
+            left: 51%;
+        }
+    }
+
+    .knowledge .outer #title-6 {
+        right: 53rem;
+        bottom: 17rem;
+    }
+
+    @keyframes jump-7 {
+        25% {
+            transform: scale(1) rotate(90deg);
+            top: 7rem;
+        }
+
+        50% {
+            transform: scaleY(0.7) rotate(180deg);
+            top: 33rem;
+        }
+
+        75% {
+            transform: scale(1) rotate(270deg);
+            top: 10rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 40rem;
+            left: 47%;
+        }
+    }
+
+    .knowledge .outer #title-7 {
+        right: 60.5rem;
+        bottom: 3rem;
+    }
+
+    @keyframes jump-8 {
+        30% {
+            transform: scale(1) rotate(120deg);
+            top: 9rem;
+        }
+
+        60% {
+            transform: scale(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 38%;
+        }
+    }
+
+    .knowledge .outer #title-8 {
+        right: 71rem;
+        bottom: 13rem;
+    }
+
+    @media screen and (max-width: 1200px) {
+        header {
+            padding: 1rem 5%;
+        }
+
+        nav {
+            width: 50%;
+            margin-left: 4rem;
+
+        }
+
+        nav a {
+            margin-left: 2rem;
+            font-size: 1.8rem;
+        }
+
+        section {
+            padding: 2rem 4%;
+        }
+
+        .home .home-container .presentation-phrase {
+            font-size: 3.5rem;
+            line-height: 6rem;
+        }
+
+        .home .home-container .presentation-phrase .myName {
+            font-size: 4rem;
+        }
+
+        .home .home-container .photo .portrait {
+            width: 34rem;
+            height: 36rem;
+        }
+
+        .home .home-container .photo .portrait .myPhoto {
+            width: 26rem;
+            height: 28rem;
+        }
+
+        .knowledge .outer .box-1 img {
+            width: 36rem;
+            height: 25rem;
+            position: absolute;
+            top: 20rem;
+            left: 0;
+        }
+
+        .knowledge .outer .box-2 img {
+            width: 36rem;
+            height: 25rem;
+            position: absolute;
+            top: 20rem;
+            left: 0;
+        }
+
+        .knowledge .outer #btn-box {
+            position: absolute;
+            left: 20rem;
+            bottom: 11rem;
+            height: 9rem;
+        }
+
+        .knowledge .outer .ball {
+            width: 6rem;
+            height: 6rem;
+
+        }
+
+        .knowledge .outer .ball img {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        @keyframes jump-1 {
+            20% {
+                transform: scale(1) rotate(72deg);
+                top: 7rem;
+            }
+
+            40% {
+                transform: scaleY(0.7) rotate(144deg);
+                top: 33rem;
+            }
+
+            60% {
+                transform: scale(1) rotate(216deg);
+                top: 10rem;
+            }
+
+            80% {
+                transform: scaleY(0.7) rotate(288deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 85%;
+            }
+        }
+
+        .knowledge .outer #title-1 {
+            right: 13rem;
+            bottom: 12rem;
+        }
+
+        .projects .carousel {
+            width: 100%;
+
+        }
+
+        .projects .carousel .list .item img {
+            width: 43%;
+            height: 40%;
+            left: 55%;
+            position: absolute;
+        }
+
+        .projects .carousel .list .introduce {
+            width: 37rem;
+            margin-left: 9rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail {
+            left: 48%;
+            position: absolute;
+            right: 1rem;
+
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img {
+            right: 50%;
+            height: 36rem;
+            transform: translateX(-100%) translateY(-90%);
+            position: absolute;
+        }
+
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img1,
+        .projects .carousel.showDetail .list .item:nth-child(2) .img3 {
+            left: 26%;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img2,
+        .projects .carousel.showDetail .list .item:nth-child(2) .img4 {
+            left: 47%;
+        }
+
+        .contacts .container {
+            width: 120rem;
+            padding: 1rem;
+        }
+
+        .contacts .container .formSpace form {
+            width: 85%;
+            transform: translateX(2rem);
+        }
+    }
+
+    @media screen and (max-width:992px) {
+        nav {
+            margin-left: 2rem;
+
+        }
+
+        nav a {
+            margin-left: 0;
+            margin-right: 4rem;
+        }
+
+        .toggle-language {
+            width: 30%;
+        }
+
+        .heading {
+            font-size: 4rem;
+        }
+
+        .home .home-container {
+            flex-direction: column;
+        }
+
+        .home .home-container .presentation-phrase {
+            margin-left: 1rem;
+            line-height: 5rem;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+
+        .home .home-container .presentation-phrase span {
+            margin-left: 0;
+            display: block;
+        }
+
+        .home .home-container .photo {
+            margin-top: 1rem;
+        }
+
+        .about .container {
+            flex-wrap: wrap;
+        }
+
+        .about .container .description {
+            transform: translateY(20%);
+        }
+
+        .about .container .code .about-code {
+            transform: translateX(40rem) translateY(-20rem) skew(-20deg, -10deg);
+        }
+
+        .knowledge .outer .box-1 img {
+            width: 31rem;
+            height: 20rem;
+            position: absolute;
+            top: 25rem;
+            left: 0;
+        }
+
+        .knowledge .outer .box-2 img {
+            width: 31rem;
+            height: 20rem;
+            position: absolute;
+            top: 25rem;
+            left: 0;
+        }
+
+        .knowledge .outer #btn-box {
+            position: absolute;
+            left: 16rem;
+            bottom: 9rem;
+            height: 9rem;
+        }
+
+        .knowledge .outer #title-1 {
+            right: 34rem;
+            bottom: 12rem;
+        }
+
+        .knowledge .outer #title-2 {
+            right: 39rem;
+            bottom: 2rem;
+        }
+
+        .knowledge .outer #title-3 {
+            right: 46rem;
+            bottom: 17rem;
+        }
+
+        .knowledge .outer #title-4 {
+            right: 59rem;
+            bottom: 23rem;
+        }
+
+        .knowledge .outer #title-5 {
+            right: 60rem;
+            bottom: 6rem;
+        }
+
+        .knowledge .outer #title-6 {
+            right: 68rem;
+            bottom: 16rem;
+        }
+
+        .knowledge .outer #title-7 {
+            right: 78rem;
+            bottom: 3rem;
+        }
+
+        .knowledge .outer #title-8 {
+            right: 83.5rem;
+            bottom: 12rem;
+        }
+
+        @keyframes jump-1 {
+            20% {
+                transform: scale(1) rotate(72deg);
+                top: 7rem;
+            }
+
+            40% {
+                transform: scaleY(0.7) rotate(144deg);
+                top: 33rem;
+            }
+
+            60% {
+                transform: scale(1) rotate(216deg);
+                top: 10rem;
+            }
+
+            80% {
+                transform: scaleY(0.7) rotate(288deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 68%;
+            }
+        }
+
+        @keyframes jump-2 {
+            20% {
+                transform: scale(1) rotate(72deg);
+                top: 9rem;
+            }
+
+            40% {
+                transform: scaleY(0.7) rotate(144deg);
+                top: 33rem;
+            }
+
+            60% {
+                transform: scale(1) rotate(216deg);
+                top: 15rem;
+            }
+
+            80% {
+                transform: scaleY(0.7) rotate(288deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(36deg);
+                top: 40rem;
+                left: 65%;
+            }
+        }
+
+        @keyframes jump-3 {
+            20% {
+                transform: scale(1) rotate(72deg);
+                top: 5rem;
+            }
+
+            40% {
+                transform: scaleY(0.7) rotate(144deg);
+                top: 33rem;
+            }
+
+            60% {
+                transform: scale(1) rotate(216deg);
+                top: 13rem;
+            }
+
+            80% {
+                transform: scaleY(0.7) rotate(288deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 25rem;
+                left: 58%;
+            }
+        }
+
+        @keyframes jump-4 {
+            20% {
+                transform: scale(1) rotate(72deg);
+                top: 8rem;
+            }
+
+            40% {
+                transform: scaleY(0.7) rotate(144deg);
+                top: 33rem;
+            }
+
+            60% {
+                transform: scale(1) rotate(216deg);
+                top: 17rem;
+            }
+
+            80% {
+                transform: scaleY(0.7) rotate(288deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 19rem;
+                left: 48%;
+            }
+        }
+
+        @keyframes jump-5 {
+            20% {
+                transform: scale(1) rotate(72deg);
+                top: 10rem;
+            }
+
+            40% {
+                transform: scaleY(0.7) rotate(144deg);
+                top: 33rem;
+            }
+
+            60% {
+                transform: scale(1) rotate(216deg);
+                top: 17rem;
+            }
+
+            80% {
+                transform: scaleY(0.7) rotate(288deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 36rem;
+                left: 47%;
+            }
+        }
+
+        @keyframes jump-6 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 7rem;
+            }
+
+            50% {
+                transform: scale() rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 26rem;
+                left: 39%;
+            }
+        }
+
+        @keyframes jump-7 {
+            30% {
+                transform: scale(1) rotate(120deg);
+                top: 7rem;
+            }
+
+            60% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 39rem;
+                left: 33%;
+            }
+        }
+
+        @keyframes jump-8 {
+            30% {
+                transform: scale(1) rotate(120deg);
+                top: 9rem;
+            }
+
+            60% {
+                transform: scale(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 28%;
+            }
+        }
+
+        .projects .carousel .list {
+            width: 96rem;
+        }
+
+        .projects .carousel .list .item {
+            font-size: 1.3rem;
+        }
+
+        .projects .carousel .list .introduce {
+            margin-left: 1rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) img {
+            right: 50%;
+            height: 34rem;
+            transform: translateX(-113%) translateY(-50%);
+            position: absolute;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img1 {
+            left: 27%;
+            top: 28%;
+            width: 23rem;
+            height: 21rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img2 {
+            left: 52%;
+            top: 28%;
+            width: 23rem;
+            height: 21rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img3 {
+            left: 27%;
+            top: 71%;
+            width: 23rem;
+            height: 21rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img4 {
+            left: 52%;
+            top: 71%;
+            width: 23rem;
+            height: 21rem;
+        }
+
+        .contacts .container {
+            width: 96rem;
+            padding: 1rem;
+        }
+
+        .contacts .container .formSpace form {
+            width: 85%;
+            transform: translateX(2rem);
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        section {
+            height: 100%;
+        }
+
+        .menu-button {
+            display: block;
+        }
+
+        nav {
+            display: none;
+        }
+
+        header {
+            justify-content: space-between;
+        }
+
+        .heading {
+            font-size: 3.4rem;
+        }
+
+        .home .home-container .presentation-phrase {
+            font-size: 3rem;
+            line-height: 5rem;
+        }
+
+        .home .home-container .presentation-phrase span {
+            display: block;
+        }
+
+        .home .home-container .photo .portrait {
+            width: 29rem;
+            height: 34rem;
+        }
+
+        .home .home-container .photo .portrait .myPhoto {
+            width: 21rem;
+            height: 26rem;
+        }
+
+        .about .container .description {
+            margin-left: 0;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .about .container .code .about-code {
+            transform: translateX(28rem) translateY(-25rem) skew(-20deg, -10deg);
+        }
+
+        .knowledge .outer {
+            width: 68rem;
+        }
+
+        .knowledge .outer .box-1 img,
+        .knowledge .outer .box-2 img {
+            width: 25rem;
+            height: 18rem;
+            left: -3%;
+            top: 30rem;
+        }
+
+        .knowledge .outer #btn-box {
+            position: absolute;
+            left: 9.5rem;
+            bottom: 6rem;
+            height: 9rem;
+        }
+
+        .knowledge .outer .ball {
+            transform: translateX(-6rem);
+        }
+
+        .knowledge .outer #title-1 {
+            right: 3rem;
+            bottom: 13rem;
+        }
+
+        .knowledge .outer #title-2 {
+            right: 9.5rem;
+            bottom: 3rem;
+        }
+
+        .knowledge .outer #title-3 {
+            right: 13rem;
+            bottom: 18rem;
+        }
+
+        .knowledge .outer #title-4 {
+            right: 23rem;
+            bottom: 24rem;
+        }
+
+        .knowledge .outer #title-5 {
+            right: 20rem;
+            bottom: 7rem;
+        }
+
+        .knowledge .outer #title-6 {
+            right: 28rem;
+            bottom: 17rem;
+        }
+
+        .knowledge .outer #title-7 {
+            right: 36rem;
+            bottom: 4rem;
+        }
+
+        .knowledge .outer #title-8 {
+            right: 39rem;
+            bottom: 13rem;
+        }
+
+        @keyframes jump-1 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 17rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 88%;
+            }
+        }
+
+        @keyframes jump-2 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 16rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(36deg);
+                top: 40rem;
+                left: 80%;
+            }
+        }
+
+        @keyframes jump-3 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 15rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 25rem;
+                left: 72%;
+            }
+        }
+
+        @keyframes jump-4 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 18rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 19rem;
+                left: 59%;
+            }
+        }
+
+        @keyframes jump-5 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 15rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 36rem;
+                left: 62%;
+            }
+        }
+
+        @keyframes jump-6 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 17rem;
+            }
+
+            50% {
+                transform: scale(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 26rem;
+                left: 49%;
+            }
+        }
+
+        @keyframes jump-7 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 12rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 39rem;
+                left: 40%;
+            }
+        }
+
+        @keyframes jump-8 {
+            30% {
+                transform: scale(1) rotate(120deg);
+                top: 20rem;
+            }
+
+            60% {
+                transform: scale(0.7) rotate(240deg);
+                top: 25rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 35%;
+            }
+        }
+
+        .projects .carousel .list .introduce {
+            position: absolute;
+            margin-left: 11rem;
+        }
+
+        .projects .carousel .list .item .introduce .title {
+            font-size: 2rem;
+        }
+
+        .projects .carousel .list .item .introduce .topic {
+            font-size: 2.5rem;
+        }
+
+        .projects .carousel .list .item .introduce .des {
+            font-size: smaller;
+            color: rgb(53, 53, 117);
+            width: 60%;
+        }
+
+        .projects .carousel .list .item img {
+            left: 60%;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img1 {
+            left: 37%;
+            top: 28%;
+            width: 22rem;
+            height: 20rem;
+        }
+
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img2 {
+            left: 60%;
+            top: 28%;
+            width: 22rem;
+            height: 20rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img3 {
+            left: 37%;
+            top: 68%;
+            width: 22rem;
+            height: 20rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .img4 {
+            left: 60%;
+            top: 68%;
+            width: 22rem;
+            height: 20rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail {
+            width: 33%;
+            margin-left: 5rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail .title {
+            font-size: 2.3rem;
+            margin-left: 3.5rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail .des {
+            margin-left: 3.5rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
+            border-top: none;
+            gap: 0;
+            margin-left: 1.3rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail .specifications div {
+            width: 7.5rem;
+        }
+
+        .contacts .container {
+            width: 75rem;
+        }
+
+        .contacts .container .phraseSpace .phrase {
+            margin-left: -0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .contacts .container .formSpace form {
+            width: 100%;
+            transform: translateX(-3%);
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .heading {
+            font-size: 4rem;
+        }
+
+        nav a {
+            font-size: 1.6rem;
+            margin-left: 2rem;
+        }
+
+        nav {
+            width: 100%;
+        }
+
+        .home .home-container .presentation-phrase {
+            font-size: 2.5rem;
+            line-height: 5rem;
+            width: 90%;
+        }
+
+        .home .home-container .photo .portrait {
+            width: 26rem;
+            height: 31rem;
+        }
+
+        .home .home-container .photo .portrait .myPhoto {
+            width: 18rem;
+            height: 23rem;
+        }
+
+        .about .container .description {
+            font-size: 1.5rem;
+        }
+
+        .about .container .code .about-code {
+            transform: translateY(-35rem) translateX(12rem) skew(-20deg, -10deg);
+        }
+
+        .knowledge .outer .ball {
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .knowledge .outer .ball img {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+
+        .knowledge .outer .title {
+            font-size: 1.2rem;
+        }
+
+        .knowledge .outer #title-1 {
+            right: 17rem;
+            bottom: 14.5rem;
+        }
+
+        .knowledge .outer #title-2 {
+            right: 22rem;
+            bottom: 7rem;
+        }
+
+        .knowledge .outer #title-3 {
+            right: 23.5rem;
+            bottom: 21rem;
+        }
+
+        .knowledge .outer #title-4 {
+            right: 31rem;
+            bottom: 24rem;
+        }
+
+        .knowledge .outer #title-5 {
+            right: 29rem;
+            bottom: 9rem;
+        }
+
+        .knowledge .outer #title-6 {
+            right: 34rem;
+            bottom: 18rem;
+        }
+
+        .knowledge .outer #title-7 {
+            right: 39rem;
+            bottom: 5rem;
+        }
+
+        .knowledge .outer #title-8 {
+            right: 45rem;
+            bottom: 14rem;
+        }
+
+        @keyframes jump-1 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 17rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 69%;
+            }
+        }
+
+        @keyframes jump-2 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 16rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(36deg);
+                top: 37rem;
+                left: 63%;
+            }
+        }
+
+        @keyframes jump-3 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 15rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 23rem;
+                left: 58%;
+            }
+        }
+
+        @keyframes jump-4 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 18rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 20rem;
+                left: 48%;
+            }
+        }
+
+        @keyframes jump-5 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 15rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 35rem;
+                left: 52%;
+            }
+        }
+
+        @keyframes jump-6 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 17rem;
+            }
+
+            50% {
+                transform: scale(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 26rem;
+                left: 41%;
+            }
+        }
+
+        @keyframes jump-7 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 12rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 39rem;
+                left: 37%;
+            }
+        }
+
+        @keyframes jump-8 {
+            30% {
+                transform: scale(1) rotate(120deg);
+                top: 20rem;
+            }
+
+            60% {
+                transform: scale(0.7) rotate(240deg);
+                top: 25rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 28%;
+            }
+        }
+
+        .projects .carousel .list .item img {
+            width: 40%;
+            left: 58%;
+            top: 45%;
+        }
+
+
+        .projects .carousel .list .item:nth-child(2) .introduce {
+            margin-left: 22rem;
+            width: 20rem;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) img {
+            display: none;
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail {
+            transform: translateX(-27rem) translateY(-18rem);
+            width: 44%;
+
+        }
+
+        .projects .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
+            margin-left: 3rem;
+        }
+
+
+        .contacts .container {
+            display: block;
+
+        }
+
+        .contacts .container .phraseSpace .phrase {
+            width: 70%;
+            font-size: 2.2rem;
+        }
+
+        .contacts .container .phraseSpace .links {
+            width: 70%;
+            margin-top: 2rem;
+        }
+
+        .contacts .container .formSpace form {
+            width: 70%;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .contacts .container .phraseSpace .phrase {
+            text-align: center;
+        }
+
+        .contacts .container .formSpace form .write-msg input,
+        .contacts .container .formSpace form .write-msg textarea {
+            padding: 0.5rem;
+        }
+
+        .thanks {
+            font-size: 2.7rem;
+        }
+    }
+
+    @media screen and (max-width:500px) {
+        header {
+            max-width: 50rem;
+            justify-content: space-around;
+        }
+
+        .knowledge .outer .box-1 img {
+            width: 22rem;
+            height: 15rem;
+            left: -4%;
+            top: 26rem;
+        }
+
+        .knowledge .outer #btn-box {
+            position: absolute;
+            left: 7rem;
+            bottom: 13rem;
+            font-size: 1.3rem;
+        }
+
+        .knowledge .outer #title-1 {
+            right: 48rem;
+            bottom: 36rem;
+        }
+
+        .knowledge .outer #title-2 {
+            right: 46rem;
+            bottom: 13rem;
+        }
+
+        .knowledge .outer #title-3 {
+            right: 35rem;
+            bottom: 25rem;
+        }
+
+        .knowledge .outer #title-4 {
+            right: 37rem;
+            bottom: 16rem;
+        }
+
+        .knowledge .outer #title-5 {
+            right: 43.5rem;
+            bottom: 29rem;
+        }
+
+        .knowledge .outer #title-6 {
+            right: 44rem;
+            bottom: 21rem;
+        }
+
+        .knowledge .outer #title-7 {
+            right: 53.5rem;
+            bottom: 25.7rem;
+        }
+
+        .knowledge .outer #title-8 {
+            right: 60rem;
+            bottom: 32.5rem;
+        }
+
+        @keyframes jump-1 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 17rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 10rem;
+                left: 23%;
+            }
+        }
+
+        @keyframes jump-2 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 16rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(36deg);
+                top: 33rem;
+                left: 28%;
+            }
+        }
+
+        @keyframes jump-3 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 15rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 21rem;
+                left: 42%;
+            }
+        }
+
+        @keyframes jump-4 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 18rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 30rem;
+                left: 40%;
+            }
+        }
+
+        @keyframes jump-5 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 15rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 17rem;
+                left: 30%;
+            }
+        }
+
+        @keyframes jump-6 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 17rem;
+            }
+
+            50% {
+                transform: scale(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 25rem;
+                left: 27%;
+            }
+        }
+
+        @keyframes jump-7 {
+            25% {
+                transform: scale(1) rotate(120deg);
+                top: 12rem;
+            }
+
+            75% {
+                transform: scaleY(0.7) rotate(240deg);
+                top: 33rem;
+            }
+
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 20rem;
+                left: 16%;
+            }
+        }
+
+        @keyframes jump-8 {
+            30% {
+                transform: scale(1) rotate(120deg);
+                top: 20rem;
+            }
+
+            60% {
+                transform: scale(0.7) rotate(240deg);
+                top: 25rem;
+            }
+
+            100% {
+                transform: scale(1) rotate(360deg);
+                top: 13rem;
+                left: 6%;
+            }
+        }
+
+
+        .projects .carousel .list .item img {
+            width: 38%;
+            left: 62.5%;
+            top: 45%;
+        }
+
+
+        .projects .carousel .list .item:nth-child(2) .introduce {
+            margin-left: 30rem;
+            width: 17rem;
+        }
+
+        .projects .carousel .list .item .introduce .title {
+            font-size: 1.7rem;
+        }
+
+        .projects .carousel .list .item .introduce .topic {
+            font-size: 1.8rem;
+        }
+
+        .contacts .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            padding: 1rem;
+        }
+
+        .contacts .container .phraseSpace .phrase {
+            width: 100%;
+            font-size: 1.7rem;
+
+        }
+
+        .contacts .container .phraseSpace .links {
+            width: 80%;
+
+        }
+
+        .contacts .container .formSpace form {
+            width: 100%;
+        }
+    }
+
+    .projects .carousel {
+        width: 100%;
+
+    }
+
+    .projects .carousel .list .item img {
+        width: 43%;
+        height: 40%;
+        left: 55%;
+        position: absolute;
+    }
+
+    .projects .carousel .list .introduce {
+        width: 37rem;
+        margin-left: 9rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail {
+        left: 48%;
+        position: absolute;
+        right: 1rem;
+
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img {
+        right: 50%;
+        height: 36rem;
+        transform: translateX(-100%) translateY(-90%);
+        position: absolute;
+    }
+
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img1,
+    .projects .carousel.showDetail .list .item:nth-child(2) .img3 {
+        left: 26%;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img2,
+    .projects .carousel.showDetail .list .item:nth-child(2) .img4 {
+        left: 47%;
+    }
+
+    .contacts .container {
+        width: 120rem;
+        padding: 1rem;
+    }
+
+    .contacts .container .formSpace form {
+        width: 85%;
+        transform: translateX(2rem);
+    }
+}
+
+@media screen and (max-width:992px) {
+    nav {
+        margin-left: 2rem;
+
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-right: 4rem;
+    }
+
+    .toggle-language {
+        width: 30%;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .home .home-container {
+        flex-direction: column;
+    }
+
+    .home .home-container .presentation-phrase {
+        margin-left: 1rem;
+        line-height: 5rem;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .home .home-container .presentation-phrase span {
+        margin-left: 0;
+        display: block;
+    }
+
+    .home .home-container .photo {
+        margin-top: 1rem;
+    }
+
+    .about .container {
+        flex-wrap: wrap;
+    }
+
+    .about .container .description {
+        transform: translateY(20%);
+    }
+
+    .about .container .code .about-code {
+        transform: translateX(40rem) translateY(-20rem) skew(-20deg, -10deg);
+    }
+
+    .knowledge .outer .box-1 img {
+        width: 31rem;
+        height: 20rem;
+        position: absolute;
+        top: 25rem;
+        left: 0;
+    }
+
+    .knowledge .outer .box-2 img {
+        width: 31rem;
+        height: 20rem;
+        position: absolute;
+        top: 25rem;
+        left: 0;
+    }
+
+    .knowledge .outer #btn-box {
+        position: absolute;
+        left: 16rem;
+        bottom: 9rem;
+        height: 9rem;
+    }
+
+    .knowledge .outer #title-1 {
+        right: 37rem;
+        bottom: 12rem;
+    }
+
+    .knowledge .outer #title-2 {
+        right: 43rem;
+        bottom: 2rem;
+    }
+
+    .knowledge .outer #title-3 {
+        right: 46rem;
+        bottom: 17rem;
+    }
+
+    .knowledge .outer #title-4 {
+        right: 59rem;
+        bottom: 23rem;
+    }
+
+    .knowledge .outer #title-5 {
+        right: 60rem;
+        bottom: 6rem;
+    }
+
+    .knowledge .outer #title-6 {
+        right: 68rem;
+        bottom: 16rem;
+    }
+
+    .knowledge .outer #title-7 {
+        right: 78rem;
+        bottom: 3rem;
+    }
+
+    .knowledge .outer #title-8 {
+        right: 83.5rem;
+        bottom: 12rem;
+    }
+
+    @keyframes jump-1 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 7rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 10rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 66%;
+        }
+    }
+
+    @keyframes jump-2 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 9rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 15rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(36deg);
+            top: 40rem;
+            left: 60%;
+        }
+    }
+
+    @keyframes jump-3 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 5rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 13rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 25rem;
+            left: 58%;
+        }
+    }
+
+    @keyframes jump-4 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 8rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 17rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 19rem;
+            left: 48%;
+        }
+    }
+
+    @keyframes jump-5 {
+        20% {
+            transform: scale(1) rotate(72deg);
+            top: 10rem;
+        }
+
+        40% {
+            transform: scaleY(0.7) rotate(144deg);
+            top: 33rem;
+        }
+
+        60% {
+            transform: scale(1) rotate(216deg);
+            top: 17rem;
+        }
+
+        80% {
+            transform: scaleY(0.7) rotate(288deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 36rem;
+            left: 47%;
+        }
+    }
+
+    @keyframes jump-6 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 7rem;
+        }
+
+        50% {
+            transform: scale() rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 26rem;
+            left: 39%;
+        }
+    }
+
+    @keyframes jump-7 {
+        30% {
+            transform: scale(1) rotate(120deg);
+            top: 7rem;
+        }
+
+        60% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 39rem;
+            left: 33%;
+        }
+    }
+
+    @keyframes jump-8 {
+        30% {
+            transform: scale(1) rotate(120deg);
+            top: 9rem;
+        }
+
+        60% {
+            transform: scale(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 28%;
+        }
+    }
+
+    .projects .carousel .list {
+        width: 96rem;
+    }
+
+    .projects .carousel .list .item {
+        font-size: 1.3rem;
+    }
+
+    .projects .carousel .list .introduce {
+        margin-left: 1rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) img {
+        right: 50%;
+        height: 34rem;
+        transform: translateX(-113%) translateY(-50%);
+        position: absolute;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img1 {
+        left: 27%;
+        top: 28%;
+        width: 23rem;
+        height: 21rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img2 {
+        left: 52%;
+        top: 28%;
+        width: 23rem;
+        height: 21rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img3 {
+        left: 27%;
+        top: 71%;
+        width: 23rem;
+        height: 21rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img4 {
+        left: 52%;
+        top: 71%;
+        width: 23rem;
+        height: 21rem;
+    }
+
+    .contacts .container {
+        width: 96rem;
+        padding: 1rem;
+    }
+
+    .contacts .container .formSpace form {
+        width: 85%;
+        transform: translateX(2rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        height: 100%;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .heading {
+        font-size: 3.4rem;
+    }
+
+    .home .home-container .presentation-phrase {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .home .home-container .presentation-phrase span {
+        display: block;
+    }
+
+    .home .home-container .photo .portrait {
+        width: 29rem;
+        height: 34rem;
+    }
+
+    .home .home-container .photo .portrait .myPhoto {
+        width: 21rem;
+        height: 26rem;
+    }
+
+    .about .container .description {
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .about .container .code .about-code {
+        transform: translateX(28rem) translateY(-25rem) skew(-20deg, -10deg);
+    }
+
+    .knowledge .outer {
+        width: 68rem;
+    }
+
+    .knowledge .outer .box-1 img,
+    .knowledge .outer .box-2 img {
+        width: 25rem;
+        height: 18rem;
+        left: -3%;
+        top: 30rem;
+    }
+
+    .knowledge .outer #btn-box {
+        position: absolute;
+        left: 9.5rem;
+        bottom: 6rem;
+        height: 9rem;
+    }
+
+    .knowledge .outer .ball {
+        transform: translateX(-6rem);
+    }
+
+    .knowledge .outer #title-1 {
+        right: 3.5rem;
+        bottom: 13rem;
+    }
+
+    .knowledge .outer #title-2 {
+        right: 7rem;
+        bottom: 3rem;
+    }
+
+    .knowledge .outer #title-3 {
+        right: 13rem;
+        bottom: 18rem;
+    }
+
+    .knowledge .outer #title-4 {
+        right: 23rem;
+        bottom: 24rem;
+    }
+
+    .knowledge .outer #title-5 {
+        right: 20rem;
+        bottom: 7rem;
+    }
+
+    .knowledge .outer #title-6 {
+        right: 28rem;
+        bottom: 17rem;
+    }
+
+    .knowledge .outer #title-7 {
+        right: 36rem;
+        bottom: 4rem;
+    }
+
+    .knowledge .outer #title-8 {
+        right: 39rem;
+        bottom: 13rem;
+    }
+
+    @keyframes jump-1 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 17rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 88%;
+        }
+    }
+
+    @keyframes jump-2 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 16rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(36deg);
+            top: 40rem;
+            left: 80%;
+        }
+    }
+
+    @keyframes jump-3 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 15rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 25rem;
+            left: 72%;
+        }
+    }
+
+    @keyframes jump-4 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 18rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 19rem;
+            left: 59%;
+        }
+    }
+
+    @keyframes jump-5 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 15rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 36rem;
+            left: 62%;
+        }
+    }
+
+    @keyframes jump-6 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 17rem;
+        }
+
+        50% {
+            transform: scale(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 26rem;
+            left: 49%;
+        }
+    }
+
+    @keyframes jump-7 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 12rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 39rem;
+            left: 40%;
+        }
+    }
+
+    @keyframes jump-8 {
+        30% {
+            transform: scale(1) rotate(120deg);
+            top: 20rem;
+        }
+
+        60% {
+            transform: scale(0.7) rotate(240deg);
+            top: 25rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 35%;
+        }
+    }
+
+    .projects .carousel .list .introduce {
+        position: absolute;
+        margin-left: 11rem;
+    }
+
+    .projects .carousel .list .item .introduce .title {
+        font-size: 2rem;
+    }
+
+    .projects .carousel .list .item .introduce .topic {
+        font-size: 2.5rem;
+    }
+
+    .projects .carousel .list .item .introduce .des {
+        font-size: smaller;
+        color: rgb(53, 53, 117);
+        width: 60%;
+    }
+
+    .projects .carousel .list .item img {
+        left: 60%;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img1 {
+        left: 37%;
+        top: 28%;
+        width: 22rem;
+        height: 20rem;
+    }
+
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img2 {
+        left: 60%;
+        top: 28%;
+        width: 22rem;
+        height: 20rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img3 {
+        left: 37%;
+        top: 68%;
+        width: 22rem;
+        height: 20rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .img4 {
+        left: 60%;
+        top: 68%;
+        width: 22rem;
+        height: 20rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail {
+        width: 33%;
+        margin-left: 5rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail .title {
+        font-size: 2.3rem;
+        margin-left: 3.5rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail .des {
+        margin-left: 3.5rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
+        border-top: none;
+        gap: 0;
+        margin-left: 1.3rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail .specifications div {
+        width: 7.5rem;
+    }
+
+    .contacts .container {
+        width: 75rem;
+    }
+
+    .contacts .container .phraseSpace .phrase {
+        margin-left: -0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .contacts .container .formSpace form {
+        width: 100%;
+        transform: translateX(-3%);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .heading {
+        font-size: 4rem;
+    }
+
+    nav a {
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .home .home-container .presentation-phrase {
+        font-size: 2.5rem;
+        line-height: 5rem;
+        width: 90%;
+    }
+
+    .home .home-container .photo .portrait {
+        width: 26rem;
+        height: 31rem;
+    }
+
+    .home .home-container .photo .portrait .myPhoto {
+        width: 18rem;
+        height: 23rem;
+    }
+
+    .about .container .description {
+        font-size: 1.5rem;
+    }
+
+    .about .container .code .about-code {
+        transform: translateY(-35rem) translateX(12rem) skew(-20deg, -10deg);
+    }
+
+    .knowledge .outer .ball {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .knowledge .outer .ball img {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .knowledge .outer .title {
+        font-size: 1.2rem;
+    }
+
+    .knowledge .outer #title-1 {
+        right: 17rem;
+        bottom: 14.5rem;
+    }
+
+    .knowledge .outer #title-2 {
+        right: 22rem;
+        bottom: 7rem;
+    }
+
+    .knowledge .outer #title-3 {
+        right: 23.5rem;
+        bottom: 21rem;
+    }
+
+    .knowledge .outer #title-4 {
+        right: 31rem;
+        bottom: 24rem;
+    }
+
+    .knowledge .outer #title-5 {
+        right: 29rem;
+        bottom: 9rem;
+    }
+
+    .knowledge .outer #title-6 {
+        right: 34rem;
+        bottom: 18rem;
+    }
+
+    .knowledge .outer #title-7 {
+        right: 39rem;
+        bottom: 5rem;
+    }
+
+    .knowledge .outer #title-8 {
+        right: 45rem;
+        bottom: 14rem;
+    }
+
+    @keyframes jump-1 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 17rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 69%;
+        }
+    }
+
+    @keyframes jump-2 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 16rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(36deg);
+            top: 37rem;
+            left: 63%;
+        }
+    }
+
+    @keyframes jump-3 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 15rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 23rem;
+            left: 58%;
+        }
+    }
+
+    @keyframes jump-4 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 18rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 20rem;
+            left: 48%;
+        }
+    }
+
+    @keyframes jump-5 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 15rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 35rem;
+            left: 52%;
+        }
+    }
+
+    @keyframes jump-6 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 17rem;
+        }
+
+        50% {
+            transform: scale(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 26rem;
+            left: 41%;
+        }
+    }
+
+    @keyframes jump-7 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 12rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 39rem;
+            left: 37%;
+        }
+    }
+
+    @keyframes jump-8 {
+        30% {
+            transform: scale(1) rotate(120deg);
+            top: 20rem;
+        }
+
+        60% {
+            transform: scale(0.7) rotate(240deg);
+            top: 25rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 28%;
+        }
+    }
+
+    .projects .carousel .list .item img {
+        width: 40%;
+        left: 58%;
+        top: 45%;
+    }
+
+
+    .projects .carousel .list .item:nth-child(2) .introduce {
+        margin-left: 22rem;
+        width: 20rem;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) img {
+        display: none;
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail {
+        transform: translateX(-27rem) translateY(-18rem);
+        width: 44%;
+
+    }
+
+    .projects .carousel.showDetail .list .item:nth-child(2) .detail .specifications {
+        margin-left: 3rem;
+    }
+
+
+    .contacts .container {
+        display: block;
+
+    }
+
+    .contacts .container .phraseSpace .phrase {
+        width: 70%;
+        font-size: 2.2rem;
+    }
+
+    .contacts .container .phraseSpace .links {
+        width: 70%;
+        margin-top: 2rem;
+    }
+
+    .contacts .container .formSpace form {
+        width: 70%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .contacts .container .phraseSpace .phrase {
+        text-align: center;
+    }
+
+    .contacts .container .formSpace form .write-msg input,
+    .contacts .container .formSpace form .write-msg textarea {
+        padding: 0.5rem;
+    }
+
+    .thanks {
+        font-size: 2.7rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    header {
+        max-width: 50rem;
+        justify-content: space-around;
+    }
+
+    .knowledge .outer .box-1 img {
+        width: 22rem;
+        height: 15rem;
+        left: -4%;
+        top: 26rem;
+    }
+
+    .knowledge .outer #btn-box {
+        position: absolute;
+        left: 7rem;
+        bottom: 13rem;
+        font-size: 1.3rem;
+    }
+
+    .knowledge .outer #title-1 {
+        right: 49rem;
+        bottom: 35rem;
+    }
+
+    .knowledge .outer #title-2 {
+        right: 43rem;
+        bottom: 12rem;
+    }
+
+    .knowledge .outer #title-3 {
+        right: 35rem;
+        bottom: 24rem;
+    }
+
+    .knowledge .outer #title-4 {
+        right: 37rem;
+        bottom: 15rem;
+    }
+
+    .knowledge .outer #title-5 {
+        right: 43.5rem;
+        bottom: 28rem;
+    }
+
+    .knowledge .outer #title-6 {
+        right: 44rem;
+        bottom: 20rem;
+    }
+
+    .knowledge .outer #title-7 {
+        right: 53.5rem;
+        bottom: 24.7rem;
+    }
+
+    .knowledge .outer #title-8 {
+        right: 60rem;
+        bottom: 31.5rem;
+    }
+
+    @keyframes jump-1 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 17rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 10rem;
+            left: 23%;
+        }
+    }
+
+    @keyframes jump-2 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 16rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(36deg);
+            top: 33rem;
+            left: 28%;
+        }
+    }
+
+    @keyframes jump-3 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 15rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 21rem;
+            left: 42%;
+        }
+    }
+
+    @keyframes jump-4 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 18rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 30rem;
+            left: 40%;
+        }
+    }
+
+    @keyframes jump-5 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 15rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 17rem;
+            left: 30%;
+        }
+    }
+
+    @keyframes jump-6 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 17rem;
+        }
+
+        50% {
+            transform: scale(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 25rem;
+            left: 27%;
+        }
+    }
+
+    @keyframes jump-7 {
+        25% {
+            transform: scale(1) rotate(120deg);
+            top: 12rem;
+        }
+
+        75% {
+            transform: scaleY(0.7) rotate(240deg);
+            top: 33rem;
+        }
+
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 20rem;
+            left: 16%;
+        }
+    }
+
+    @keyframes jump-8 {
+        30% {
+            transform: scale(1) rotate(120deg);
+            top: 20rem;
+        }
+
+        60% {
+            transform: scale(0.7) rotate(240deg);
+            top: 25rem;
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+            top: 13rem;
+            left: 6%;
+        }
+    }
+
+
+    .projects .carousel .list .item img {
+        width: 38%;
+        left: 62.5%;
+        top: 45%;
+    }
+
+
+    .projects .carousel .list .item:nth-child(2) .introduce {
+        margin-left: 30rem;
+        width: 17rem;
+    }
+
+    .projects .carousel .list .item .introduce .title {
+        font-size: 1.7rem;
+    }
+
+    .projects .carousel .list .item .introduce .topic {
+        font-size: 1.8rem;
+    }
+
+    .contacts .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .contacts .container .phraseSpace .phrase {
+        width: 100%;
+        font-size: 1.7rem;
+
+    }
+
+    .contacts .container .phraseSpace .links {
+        width: 80%;
+
+    }
+
+    .contacts .container .formSpace form {
+        width: 100%;
+    }
+}

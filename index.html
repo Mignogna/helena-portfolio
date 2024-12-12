@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Helena Mignogna's Portfolio">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./images/code-bg.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>Portfolio | Helena Mignogna</title>
+</head>
+
+<body>
+    <header>
+        <div class="sidebar">
+            <nav>
+                <i onclick="hideSidebar()"><ion-icon name="close"></ion-icon></i>
+                <a href="#home" class="mobile port" onclick="hideSidebar()">Home</a>
+                <a href="#about" class="mobile port" onclick="hideSidebar()">Sobre</a>
+                <a href="#knowledge" class="mobile port" onclick="hideSidebar()">Conhecimentos</a>
+                <a href="#projects" class="mobile port" onclick="hideSidebar()">Projetos</a>
+                <a href="#contacts" class="mobile port" onclick="hideSidebar()">Contatos</a>
+
+                <a href="#home" class="mobile eng" onclick="hideSidebar()">Home</a>
+                <a href="#about" class="mobile eng" onclick="hideSidebar()">About</a>
+                <a href="#knowledge" class="mobile eng" onclick="hideSidebar()">Knowledge</a>
+                <a href="#projects" class="mobile eng" onclick="hideSidebar()">Projects</a>
+                <a href="#contacts" class="mobile eng" onclick="hideSidebar()">Contacts</a>
+            </nav>
+        </div>
+        <nav>
+            <a href="#home" class="port">Home</a>
+            <a href="#about" class="port">Sobre</a>
+            <a href="#knowledge" class="port">Conhecimentos</a>
+            <a href="#projects" class="port">Projetos</a>
+            <a href="#contacts" class="port">Contatos</a>
+
+            <a href="#home" class="eng">Home</a>
+            <a href="#about" class="eng">About</a>
+            <a href="#knowledge" class="eng">Knowledge</a>
+            <a href="#projects" class="eng">Projects</a>
+            <a href="#contacts" class="eng">Contacts</a>
+        </nav>
+        <div class="toggle-language">
+            <img class="flag" src="https://flagsapi.com/BR/shiny/64.png" alt="Brazilian Flag">
+            <div class="toggle-btn-1">
+                <input type="checkbox" id="toggle-checkbox" class="toggle-input">
+            </div>
+            <img class="flag" src="https://flagsapi.com/US/shiny/64.png" alt="American Flag">
+        </div>
+        <i class="menu-button" onclick="showSidebar()"><ion-icon name="menu"></ion-icon></i>
+    </header>
+
+    <!--Home-->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="presentation-phrase">
+                <p class="port">Muito prazer!</p>
+                <p class="eng">Nice to meet you!</p>
+                <p class="port">Meu nome é <span class="myName">Helena Mignogna</span></p>
+                <p class="eng">My name is <span class="myName">Helena Mignogna</span></p>
+                <p class="port">Sou <span>Desenvolvedora Front-end</span></p>
+                <p class="eng">I am <span>Front-end Developer</span></p>
+            </div>
+            <div class="photo">
+                <div class="portrait">
+                    <img src="./images/green.jpg" alt="Helena's photo" class="myPhoto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Me/Sobre Mim-->
+    <section class="about" id="about">
+        <h1 class="heading port">Sobre mim</h1>
+        <h1 class="heading eng">About me</h1>
+        <div class="container">
+            <div class="description">
+                <p class="port">Descobri minha paixão pela tecnologia há
+                    dois anos e, desde então, tenho me dedicado intensamente aos estudos do desenvolvimento Full Stack,
+                    com
+                    ênfase ao Front-end, para poder trabalhar nas várias etapas do desenvolvimento de software
+                    e poder entregar projetos de alta qualidade.<br />Sou uma profissional
+                    dedicada, proativa, comprometida com a excelência dos resultados e em constante busca de
+                    aprendizado para o crescimento profissional.<br /> Meu objetivo é construir
+                    uma carreira sólida como desenvolvedora, contribuindo para o sucesso de projetos
+                    incríveis. </p>
+                <p class="eng">I discovered my passion for technology two years ago and, since then, I have dedicated
+                    myself intensively to studying Full Stack development, with a focus on the Front-end, in order to
+                    work on the various stages of software development and deliver high-quality projects.<br />
+                    I am a dedicated, proactive professional, committed to achieving excellent results and constantly
+                    seeking learning opportunities for professional growth.<br />
+                    My goal is to build a solid career as a developer, contributing to the success of incredible
+                    projects. </p>
+                <button class="doc-btn port">
+                    <a href="./images/Mignogna_CV.portuguese.pdf" target="_blank">BAIXAR CURRÍCULO <ion-icon
+                            name="download-outline"></ion-icon></a>
+                </button>
+                <button class="eng">
+                    <a href="./images/Mignogna_CV.english.pdf" target="_blank">DOWNLOAD RESUME <ion-icon
+                            name="download-outline"></ion-icon>
+                    </a>
+                </button>
+            </div>
+            <div class="code">
+                <img src="./images/code-bg.png" alt="A code symbol" class="about-code">
+            </div>
+        </div>
+    </section>
+
+    <!--Knowledge/Conhecimentos-->
+    <section class="knowledge" id="knowledge">
+        <h1 class="heading port">Meus conhecimentos em programação</h1>
+        <h1 class="heading eng">My programming skills</h1>
+        <div class="outer">
+            <div class="box-1">
+                <img src="./images/closed-treasure-bg.png" alt="Treasure Box Closed" id="changeImg">
+            </div>
+            <button onclick="openBox();" id="btn-box">
+                <p class="port">Clique aqui</p>
+                <p class="eng">Click here</p>
+            </button>
+
+            <div class="ball" id="ball-1">
+                <img src="./images/sql.bg.png" alt="SQL Icon" />
+            </div>
+            <div class="title" id="title-1">SQL</div>
+
+            <div class="ball" id="ball-2">
+                <img src="./images/git-bg.png" alt="Git Icon" />
+            </div>
+            <div class="title" id="title-2">Git/GitHub</div>
+
+            <div class="ball" id="ball-3">
+                <img src="./images/tailwind-bg.png" alt="Tailwind Icon" />
+            </div>
+            <div class="title" id="title-3">Tailwind</div>
+
+            <div class="ball" id="ball-4">
+                <img src="./images/sass.png" alt="SASS Icon" />
+            </div>
+            <div class="title" id="title-4">SASS</div>
+
+            <div class="ball" id="ball-5">
+                <img src="./images/react-bg.png" alt="React Icon" />
+            </div>
+            <div class="title" id="title-5">React</div>
+
+            <div class="ball" id="ball-6">
+                <img src="./images/js-logo-bg.png" alt="Javascript Icon" />
+            </div>
+            <div class="title" id="title-6">Javascript</div>
+
+            <div class="ball" id="ball-7">
+                <img src="./images/css-logo-bg.png" alt="CSS Icon" />
+            </div>
+            <div class="title" id="title-7">CSS</div>
+
+            <div class="ball" id="ball-8">
+                <img src="./images/html-logo-bg.png" alt="HTML Icon" />
+            </div>
+            <div class="title" id="title-8">HTML</div>
+        </div>
+    </section>
+
+    <!--Projects/Projetos-->
+    <section class="projects" id="projects">
+        <h1 class="heading port">Meus projetos</h1>
+        <h1 class="heading eng">My projects</h1>
+        <div class="carousel prev next">
+            <div class="list">
+                <div class="item">
+                    <img src="./images/umbrella.jpg" alt="Form page. Project-6">
+                    <div class="introduce">
+                        <div class="title port">Projeto - 06</div>
+                        <div class="title eng">Project - 06</div>
+                        <div class="topic port">Cadastro</div>
+                        <div class="topic eng">Form</div>
+                        <div class="des port">Cadastro com validação dos inputs e estilização com SASS.</div>
+                        <div class="des eng">Form with input value validation and styled with SASS.</div>
+                        <button class="seeMore port">VER MAIS &#8599</button>
+                        <button class="seeMore eng">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title port">Cadastro</div>
+                        <div class="title eng">Form</div>
+                        <div class="des port">Um cadastro simples mas com especificações de textos através de expressões
+                            regulares (REGEX) e validação dos valores dos inputs. Completado o cadastro, um pop-up
+                            surge
+                            para informar que o cadastro foi processado.
+                        </div>
+                        <div class="des eng">A basic registration form incorporating text specifications defined by
+                            regular expressions (REGEX) for rigorous input validation. Once the form is successfully
+                            submitted, a pop-up notification is displayed to confirm the registration process.
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>HTML</p>
+                            </div>
+                            <div>
+                                <p>SASS</p>
+                            </div>
+                            <div>
+                                <p>Javascript</p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Mignogna/umbrella.form" target="_blank"> <ion-icon
+                                        class="ion" name="logo-github"></ion-icon>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./images/barbie-1.jpg" alt="Homepage. Project-1" class="img1" style="z-index:1;">
+                    <img src="./images/barbie-2.jpg" alt="Casting page. Project-1" class="img2">
+                    <img src="./images/barbie-3.jpg" alt="Checkout page. Project-1" class="img3">
+                    <img src="./images/barbie-4.png" alt="Thicket page. project-1" class="img4">
+                    <div class="introduce">
+                        <div class="title port">Projeto - 01</div>
+                        <div class="title eng">Project - 01</div>
+                        <div class="topic port">Ingressos de cinema</div>
+                        <div class="topic eng">Cinema tickets</div>
+                        <div class="des port">Este é um projeto criado por mim simulando a venda de ingressos de cinema
+                            para assistir ao filme da Barbie.</div>
+                        <div class="des eng">This is a project I created that simulates selling movie tickets to watch
+                            the Barbie Movie.</div>
+                        <button class="seeMore port">VER MAIS &#8599</button>
+                        <button class="seeMore eng">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title port">Ingressos de cinema</div>
+                        <div class="title eng">Cinema tickets</div>
+                        <div class="des port">
+                            <p>O projeto tem quatro páginas web.</p>
+                            <p>Na homepage foi colocado um banner com uma cena do filme, trailler, sinopse e um botão
+                                para o usuário comprar o ingresso.</p>
+                            <p>Na segunda página, foi feita a apresentação dos personagens por meio de um slide.</p>
+                            <p>A terceira página é onde o usuário compra o bilhete, escolhendo o endereço do cinema,
+                                data, sessão e até o assento que irá utilizar.
+                                Simula o pagamento e finaliza. Todo o cadastro foi feito com validação dos valores dos
+                                inputs.
+                            </p>
+                            <p>Por final, uma quarta página se abre com os dados do bilhete comprado.</p>
+                        </div>
+                        <div class="des eng">
+                            <p>The project has four web pages.</p>
+                            <p>The homepage features a banner with a scene from the movie, a trailler, a synopsis, and a
+                                button for the user purchase the ticket.</p>
+                            <p>The second page presents the characters through a slideshow.</p>
+                            <p>The third page is where the user purchases the ticket, selecting the cinema location,
+                                date, session, and even the seat. It simulates the payment and finalizes the purchase.
+                            </p>
+                            <p>Finally, a fourth page opens displaying the details of the purchased tickets.</p>
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>HTML</p>
+                            </div>
+                            <div>
+                                <p>CSS</p>
+                            </div>
+                            <div>
+                                <p>Javascript</p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Mignogna/barbie-the-movie" target="_blank"><ion-icon
+                                        class="ion" name="logo-github"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./images/ascis-1.jpg" alt="Homepage. Project-2" class="img1" style="z-index:1;">
+                    <img src="./images/asics-2.jpg" alt="Cart page. Project-2" class="img2">
+                    <img src="./images/asics-3.jpg" alt="Checkout page. Project-2" class="img3">
+                    <div class="introduce">
+                        <div class="title port">Projeto - 02</div>
+                        <div class="title eng">Project - 02</div>
+                        <div class="topic port">E-commerce</div>
+                        <div class="topic eng">E-commerce</div>
+                        <div class="des port">Simulação de e-commerce de tênis da marca Asics feito com React.
+                        </div>
+                        <div class="des eng">A simulated Asics sneaker e-commerce platform developed using React.
+                        </div>
+                        <button class="seeMore port">VER MAIS &#8599</button>
+                        <button class="seeMore eng">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title port">E-commerce</div>
+                        <div class="title eng">E-commerce</div>
+                        <div class="des port">
+                            <p>O projeto tem três etapas.</p>
+                            <p>A homepage, onde são expostos todos os produtos e que podem ser filtrados por
+                                categorias (masculinos, femininos e infantil) e preço.</p>
+                            <p>Uma parte dedicada ao carrinho, onde o usuário poderá verificar os itens da compra,
+                                remover e adicionar itens e checar o valor total da compra.</p>
+                            <p>Uma segunda página com o formulário para obter os dados do comprador e entrega, além
+                                de simular o pagamento do produto.</p>
+                            <p>O rápido preenchimento do endereço teve a ajuda da API ViaCep.</p>
+                        </div>
+                        <div class="des eng">
+                            <p>The project consists of three pages.</p>
+                            <p>The homepage displays all products, which can be filtered by category (men's,
+                                women's, and children's) and price.</p>
+                            <p>A dedicated section for the shopping cart, where the user can view their items,
+                                remove or add items, and check the total purchase amount.</p>
+                            <p>A second page with a form to collect the buyer's and shipping information, as well as
+                                a simulated payment process.</p>
+                            <p>The rapid filling of the address was assisted by the ViaCep API.</p>
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>Vite</p>
+                            </div>
+                            <div>
+                                <p>HTML</p>
+                            </div>
+                            <div>
+                                <p>CSS</p>
+                            </div>
+                            <div>
+                                <p>React</p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Mignogna/tennisecommerce" target="_blank"><ion-icon
+                                        class="ion" name="logo-github"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./images/dog.breeds.jpg" alt="Slider page. Project-3">
+                    <div class="introduce">
+                        <div class="title port">Projeto - 03</div>
+                        <div class="title eng">Project - 03</div>
+                        <div class="topic port">Slides com miniaturas</div>
+                        <div class="topic eng">Slider with thumbnails</div>
+                        <div class="des port">Um jeito diferenciado de fazer um slideshow.</div>
+                        <div class="des eng">A different way to make a slider.</div>
+                        <button class="seeMore port">VER MAIS &#8599</button>
+                        <button class="seeMore eng">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title port">Slides com miniaturas</div>
+                        <div class="title eng">Slider with thumbnails</div>
+                        <div class="des port">
+                            <p>Uma galeria interativa de raças de cães, apresentando cada raça em um slide
+                                individual e
+                                permitindo ao usuário visualizar rapidamente os próximos slides através de
+                                miniaturas.
+                            </p>
+                        </div>
+                        <div class="des eng">
+                            <p>An interactive gallery of dog breeds, showcasing each breed on an individual slide
+                                and
+                                allowing users to quickly preview upcoming slides through thumbnails.</p>
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>HTML</p>
+                            </div>
+                            <div>
+                                <p>CSS</p>
+                            </div>
+                            <div>
+                                <p>Javascript</p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Mignogna/dog_breeds" target="_blank"><ion-icon class="ion"
+                                        name="logo-github"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./images/natura.jpg" alt="Homepage. Project-4" class="img1" style="z-index: 1;">
+                    <img src="./images/natura-2.jpg" alt="Cart page. Project-4" class="img2">
+                    <img src="./images/natura-3.jpg" alt="Checkout page. Project-4" class="img3">
+                    <img src="./images/natura-4.jpg" alt="Thank you page. Project-4" class="img4">
+                    <div class="introduce">
+                        <div class="title port">Projeto - 04</div>
+                        <div class="title eng">Project - 04</div>
+                        <div class="topic port">E-commerce</div>
+                        <div class="topic eng">E-commerce</div>
+                        <div class="des port">Simulação de e-commerce de cosméticos da marca Natura feito com
+                            Javascript.</div>
+                        <div class="des eng">A simulated e-commerce for Natura cosmetics, a traditional Brazilian
+                            brand, created using Javascript.</div>
+                        <button class="seeMore port">VER MAIS &#8599</button>
+                        <button class="seeMore eng">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title port">E-commerce</div>
+                        <div class="title eng">E-commerce</div>
+                        <div class="des port">
+                            <p>Um e-commerce de cosméticos composto por quatro etapas:</p>
+                            <p>A homepage com os produtos catalogados onde o usuário poderá filtrar os produtos por
+                                categoria (masculinos, femininos e todos).</p>
+                            <p>Uma parte dedicada ao carrinho com possibilidade de remover e adicionar itens.</p>
+                            <p>Uma parte para o cadastro e simulação de pagamento. Nesta página, foi utilizada a API
+                                ViaCep para facilitar o preenchimento do endereço.</p>
+                            <p>Completada a simulação de pagamento, uma página de agradecimento se abre com os dados
+                                do
+                                envio do produto.</p>
+                        </div>
+                        <div class="des eng">
+                            <p>A cosmetics e-commerce platform composed of four stages:</p>
+                            <p>A homepage with categorized products where users can filter by category (male, female
+                                and
+                                all).</p>
+                            <p>A dedicated cart section with the ability to remove and add items.</p>
+                            <p>A page for registration and payment simulation. The ViaCep API was used to facilitate
+                                the
+                                filling of the address.</p>
+                            <p>Upon completion of the payment simulation, a thank you page opens displaying the
+                                products
+                                shipping details.</p>
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>HTML</p>
+                            </div>
+                            <div>
+                                <p>CSS</p>
+                            </div>
+                            <div>
+                                <p>Javascript</p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Mignogna/ecommerceNatura" target="_blank"><ion-icon
+                                        class="ion" name="logo-github"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./images/cruise-1.jpg" alt="Cruise Homepage Project-5" class="img1" style="z-index: 1;">
+                    <img src="./images/cruise-2.jpg" alt="Our Fleet Page" class="img2">
+                    <img src="./images/cruise-3.jpg" alt="Destinations Page" class="img3">
+                    <img src="./images/cruise-4.jpg" alt="Advantages Page" class="img4">
+                    <div class="introduce">
+                        <div class="title port">Projeto - 05</div>
+                        <div class="title eng">Project - 05</div>
+                        <div class="topic port">Destinos turísticos</div>
+                        <div class="topic eng">Tourism destinations</div>
+                        <div class="des port">
+                            <p>
+                                A criação deste projeto me permitiu aplicar de forma integrada meus conhecimentos em
+                                Programação, Marketing e Hospitalidade. É uma apresentação de uma empresa de navios de
+                                cruzeiros elaborada com o objetivo de incentivar o usuário a fazer cruzeiros e
+                                convertê-los em clientes.
+                            </p>
+                        </div>
+                        <div class="des eng">
+                            <p>
+                                Creating this project allowed me to integrate my knowledge in Programming,
+                                Marketing, and Hospitality. It is a presentation of a cruise ship company designed to
+                                encourage users to take cruises and convert them into customers.
+                            </p>
+                        </div>
+                        <button class="seeMore port">VER MAIS &#8599</button>
+                        <button class="seeMore eng">SEE MORE &#8599</button>
+                    </div>
+                    <div class="detail">
+                        <div class="title port">Destinos turísticos</div>
+                        <div class="title eng">Tourism destinations</div>
+                        <div class="des port">
+                            <p>A Homepage do projeto possui uma linda paisagem do mar com uma frase de impacto.</p>
+                            <p>Na segunda parte, imagens da frota são exibidas através de um slider feito com o auxílio
+                                da biblioteca Swiper.js</p>
+                            <p>Em seguida é apresentado os destinos e os cruzeiros da companhia.</p>
+                            <p>Uma parte é dedicada a todos os atrativos que um cruzeiro oferece.</p>
+                            <p>Finaliza com uma frase de incentivo para o usuário comprar os cruzeiros da empresa com
+                                todos os links de contato.</p>
+                        </div>
+                        <div class="des eng">
+                            <p>The project's homepage features a stunning seascape accompanied by a powerful tagline.
+                            </p>
+                            <p> In the second section, images of the fleet are showcased through a slider implemented
+                                using the Swiper.js library.</p>
+                            <p>Subsequently, the company's destinations and cruises are presented.</p>
+                            <p>A dedicated section highlights all the attractions offered on a cruise.</p>
+                            <p>It concludes with an inspiring call-to-action encouraging users to book cruises, complete
+                                with contact links.</p>
+                        </div>
+                        <div class="specifications">
+                            <div>
+                                <p>HTML</p>
+                            </div>
+
+                            <div>
+                                <p>CSS</p>
+                            </div>
+                            <div>
+                                <p>Javascript</p>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Mignogna/SplendourCruise" target="_blank"><ion-icon
+                                        class="ion" name="logo-github"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev">&#10094</button>
+                <button id="next">&#10095</button>
+                <button class="back port">VER TODOS &#8599</button>
+                <button class="back eng">SEE ALL &#8599</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contacts/Contatos-->
+    <section class="contacts" id="contacts">
+        <h1 class="heading port">Meus contatos</h1>
+        <h1 class="heading eng">My contacts</h1>
+        <div class="container">
+            <div class="phraseSpace">
+                <div class="phrase port">
+                    <p>Espero que tenha gostado do que viu por aqui.</p>
+                    <p>Que tal me chamar para trabalhar na sua equipe? Juntos podemos criar muito mais.</p>
+                    <p>Não perca tempo! Me encontre agora mesmo por estes links e vamos conversar! </p>
+                </div>
+                <div class="phrase eng">
+                    <p>I hope you enjoyed what you saw here.</p>
+                    <p>How about inviting me to join your team? We could create some amazing things together.</p>
+                    <p>Don't waste any time! Find me now through these links and let's talk!</p>
+                </div>
+                <div class="links">
+                    <a href="https://wa.me/5511982362156" target="_blank"><ion-icon class="ion"
+                            name="logo-whatsapp"></ion-icon></a>
+                    <a href="https://github.com/Mignogna" target="_blank"><ion-icon class="ion"
+                            name="logo-github"></ion-icon></a>
+                    <a href="https://linkedin.com/in/helenamignogna/" target="_blank"><ion-icon class="ion"
+                            name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div>
+            <div class="formSpace">
+                <form action="https://api.staticforms.xyz/submit" class="port" id="full-form" method="post">
+                    <div><ion-icon class="ion" name="mail-outline"></ion-icon></div>
+                    <input type="hidden" name="accessKey" value="91277443-9e7a-4301-91ce-cbdfe4a61605">
+                    <div class="write-msg">
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name" id="name" class="input-name" autocomplete="off" required>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" class="input-email" autocomplete="off" required>
+                        <label for="name">Mensagem:</label>
+                        <textarea type="text" name="message" id="message" autocomplete="off" required></textarea>
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/thanksPage.html">
+                        <input type="submit" value="ENVIAR EMAIL" id="msg">
+                    </div>
+                </form>
+
+                <form action="https://api.staticforms.xyz/submit" class="eng" id="full-form" method="post">
+                    <div><ion-icon class="ion" name="mail-outline"></ion-icon>
+                    </div>
+                    <input type="hidden" name="accessKey" value="91277443-9e7a-4301-91ce-cbdfe4a61605">
+                    <div class="write-msg">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" class="input-name" autocomplete="off" required>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" class="input-email" autocomplete="off" required>
+                        <label for="name">Message:</label>
+                        <textarea type="text" name="message" id="message" autocomplete="off" required></textarea>
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/thanksPage.html">
+                        <input type="submit" value="SUBMIT EMAIL" id="msg">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="port">
+            <p>Feito com <ion-icon name="heart"></ion-icon> por <b>Helena Mignogna</b> </p>
+        </footer>
+        <footer class="eng">
+            <p>Made with <ion-icon name="heart"></ion-icon> by <b>Helena Mignogna</b> </p>
+        </footer>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
